@@ -1,0 +1,6 @@
+Semplice programma server che riceve un messaggio dal client e risponde,
+versione con i thread
+Per compilare il server: gcc -lpthread main.c server/server_thread.c -o build/server
+Per compilare il client: gcc client/client.c -o build/client 
+Per avviare il server: build/server 5555
+Per avviare il client: build/client 127.0.0.1 5555
